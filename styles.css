@@ -35,6 +35,7 @@ body {
     justify-content: space-around;
     border-radius: 8px;
     background-color: #3882F6;
+    gap: 16px;
 }
 
 a {
@@ -54,6 +55,7 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    gap: 8px;
 }
 
 .intro-container {
@@ -82,6 +84,7 @@ button {
     border: none;
     border-radius: 4px;
     padding: 4px 8px;
+    cursor: pointer;
 }
 
 .button-outline {
@@ -117,9 +120,24 @@ button {
     border: 3px solid #3882F6;
 }
 
+.footer {
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F8F8FA;
+}
+
+iframe {
+    margin-left: 48px;
+    min-width: 0
+}
+
+/* ID's */
 #header-logo {
-    max-width: 48px;
-    max-height: 48px;
+    max-width: 72px;
+    max-height: 72px;
     flex-shrink: 0;
 }
 
@@ -129,10 +147,6 @@ button {
     color: #F8F8FA;
 }
 
-#intro-image {
-    width: 400px;
-    margin-left: 48px;
-}
 
 #intro-subtext {
     color: #E5E7EB;
