@@ -1,3 +1,5 @@
-THE LANDING PAGE 
+# **THE LANDING PAGE - STOICISM** #
 
-- by The Odin Project
+### for The Odin Project ###
+
+My first webpage created as a student of The Odin Project that briefly goes over Stoic quotes and its most notable representatives throughout history.
